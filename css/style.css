@@ -211,6 +211,7 @@ body {
    width: 370px; 
    margin-right: 30px;
    flex: none;
+   margin-top: 10px;
 }
 
 .expertise_info-item {
@@ -247,6 +248,77 @@ body {
     margin-bottom: 25px;
 }
 
+.expertise_items {
+    display: flex;
+    justify-content: space-between;
+}
 
+.expertise_item {
+    width: 370px;
+    padding-left: 85px;
+    position: relative;
+}
+
+.expertise_item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+
+}
+
+.expertise_item--design::before  {
+    background-image: url('../images/svg/graphic-design.svg');
+}
+
+.expertise_item--dev::before  {
+    background-image: url('../images/svg/veb-development.svg');
+}
+
+.expertise_item--marketing::before {
+    background-image: url('../images/svg/marketing.svg');
+}
+
+.expertise_item-title {
+    line-height: 20px;
+    letter-spacing: 4.29px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.expertise_item-text {
+    color: #777;
+}
 
 /* Expertise style end */
+
+/* Magic style start */
+
+.magic {
+    background-color: #F6F8FA;
+    background-image: url(../images/magic-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position:  left 82% ;
+}
+
+.magic_inner{
+    max-width: 470px;
+    margin-left: auto;
+    padding: 100px 0  190px;
+}
+
+.magic_title {
+    margin-bottom: 67px;
+}
+
+.magic_text p {
+    margin-bottom: 25px;
+}
+
+/* Magic style end */
+
