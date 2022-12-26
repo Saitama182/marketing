@@ -333,25 +333,77 @@ body {
 .portfolio_top {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 100px;
 }
 
 .portfolio_content {
     column-count: 4;
     column-gap: 22px;
+    margin-bottom: 72px;
+}
+
+.portfolio_item {
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.portfolio_item:first-child {
+    margin-top: 0;
+}
+
+
+.portfolio_item-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #4C4A4A;
+border: 12px solid #666565 ;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transition: all .3s;
+}
+
+.portfolio_item:hover .portfolio_item-link {
+    opacity: 1;
+
 }
 
 .portfolio_item img {
     width: 100%;
-    margin-bottom: 22px;
+    
+}
+
+.portfolio_filter_btn {
+    margin-right: 40px;
 }
 
 .portfolio_btn {
     background-color: transparent;
-    padding: 0;
     border: none;
-    
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 4px 5px;
+    margin-right: 25px;
+    outline: none;
+}
+
+.mixitup-control-active {
+    border-bottom: 1px solid #FCBB08;
 }
 
 .portfolio_add {
