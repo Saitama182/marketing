@@ -557,3 +557,225 @@ color: #373A39;
 
 /* Slider-blog   style end */
 
+/* Team style start */
+.team {
+    padding: 120px 0 130px;
+}
+
+
+.team_title {
+    margin-bottom: 100px;
+}
+
+.team_items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team_name {
+    padding: 35px 0 12px;
+    font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+font-family: 'Montserrat', sans-serif;
+color: #333;
+}
+
+.team_position {
+    font-weight: 300;
+font-size: 12px;
+line-height: 16px;
+}
+/* Team style end */
+
+/* pricing style start */
+.pricing {
+    background-color: #F6F8FA;
+    padding: 145px 0 160px;
+}
+
+.pricing_title {
+    margin-bottom: 90px;
+}
+
+.pricing_items {
+    display: flex;
+    justify-content: space-between;
+}
+ul.pricing_item {
+    background-color: #FFF;
+    text-align: center;
+    padding: 24px 25px 50px;
+    width: 370px;
+}
+
+
+.pricing_item li {
+    font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #242121;
+margin-bottom: 30px;
+}
+
+.pricing_item  .pricing_item-name {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.pricing_item  .pricing_item-num {
+    font-size: 80px;
+line-height: 109px;
+margin-bottom: 50px;
+}
+
+.pricing_item-num sup {
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.pricing_item-link {
+    margin-top: 70px;
+    display: block; 
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #242121;
+letter-spacing: 1.2px;
+font-family: 'Montserrat', sans-serif;
+}
+    
+
+
+/* pricing style end */
+
+/* connection style start */
+
+.connection {
+    padding: 145px 0 160px;
+    background-image: url('../images/map.jpg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right 65%;
+}
+
+.connection_title {
+    margin-bottom: 80px;
+}
+
+.form {
+    max-width: 570px;
+}
+
+.form input,
+.form textarea {
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #373A39;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 3.70909px;
+    color: #B8B8B8;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+.form button {
+    font-weight: bold;
+font-size: 11px;
+line-height: 13px;
+color: #FFF;
+text-transform: uppercase;
+padding: 17px 70px 15px;
+border: none;
+background: #242121;
+cursor: pointer;
+margin-top: 40px;
+letter-spacing: 2px;
+}
+
+/* connection style end */
+
+
+/* footer style start */
+
+.footer_top {
+    padding: 110px 10px 60px;
+    background-color: #333;
+    text-align: center;
+
+}
+
+.footer_logo {
+    display: inline-block;
+    padding: 0 35px 4px;
+    margin-bottom: 70px;
+}
+
+ul.footer_social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.footer_social-list {
+    padding: 0 15px;
+}
+
+
+
+
+.footer_social-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.footer_contact {
+font-size: 14px;
+line-height: 32px;
+color: #FFFFFF;
+margin-bottom: 60px;
+}
+
+.footer_contact a {
+    display: block;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.go-top {
+    display: inline-block;
+}
+
+.footer_copy {
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ccc;
+    background: #2A2C2B;
+}
+
+
+/* footer style end */
