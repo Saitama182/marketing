@@ -4,7 +4,16 @@ $(function(){
     $('.slider-blog_inner').slick({
       dots: true,
       prevArrow: '<button type="button" class="slick-prev"><img src="../images/svg/arrow-left.svg" alt=""></button>',
-      nextArrow: '<button type="button" class="slick-next"><img src="../images/svg/arrow-right.svg" alt=""></button>',
+      nextArrow: '<button type="button" class="slick-next"><img src="../images/svg/arrow-right.svg" alt=""></button>', 
+      responsive: [
+        {
+          breakpoint: 769,
+          settings: {
+            arrows:false
+          }
+        }
+             
+      ]
     });
 
     $('.menu_btn').on('click' , function(){
