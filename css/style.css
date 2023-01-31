@@ -812,13 +812,19 @@ margin-bottom: 60px;
     .about_inner {
         display: block;
     }
-    .about_title {
+    .about_title,
+    .team_title,
+    .pricing_title,
+    .connection_title {
         margin-bottom: 50px;
     }
     .about,
     .expertise,
     .portfolio,
-    .slider-blog {
+    .slider-blog,
+    .team,
+    .pricing,
+    .connection {
         padding: 75px 0;
     }
 
@@ -836,7 +842,10 @@ margin-bottom: 60px;
     .portfolio_filter_btn {
         margin-right: 0;
     }
-  
+    .team_items,
+    .pricing_items {
+        column-gap: 20px;
+    }
 
 }
 
@@ -878,6 +887,28 @@ margin-bottom: 60px;
     .portfolio_filter_btn {
         margin-top: 40px;
     }
+    .connection {
+        background-image: none;
+    }
+    .form {
+        max-width: 100%;
+    }
+    .footer_top {
+        padding-top: 75px;
+    }
+
+    .footer_logo {
+        margin-bottom: 40px;
+    }
+    ul.footer_social{
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+    .footer_social-link {
+        width: 33.333%;
+        margin-bottom: 25px;
+    }
+    
 }
 
 
@@ -994,6 +1025,27 @@ margin-bottom: 60px;
     .slider-blog_item-title {
         font-size: 24px;
         line-height: 32px;
+    }
+    .pricing_items {
+       display: block; 
+    }
+    ul.pricing_item {
+        margin: 0 auto 25px;
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .team_items{
+        display: block;
+    }
+    .team_item {
+        margin-bottom: 25px;
+    }
+    .team_item img {
+        margin: 0 auto;
     }
 }
 
