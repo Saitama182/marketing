@@ -1,4 +1,12 @@
 $(function(){
+
+  $(".menu a, .go-top").on("click", function (e) {
+		
+		e.preventDefault();
+		var id  = $(this).attr('href'),
+		top = $(id).offset().top;
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
     
 
     $('.slider-blog_inner').slick({
@@ -16,8 +24,9 @@ $(function(){
       ]
     });
 
-    $('.menu_btn').on('click' , function(){
+    $('.menu_btn, .menu a').on('click' , function(){
       $('.header_top-inner').toggleClass('header_top-inner--active');
+      
      
     });
 
